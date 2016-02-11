@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-family: 'Dosis', sans-serif;
+  }
+
+  *, *::before, *::after {
+  	box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  color: 47241e
+}
+
+ul{
+  display: inline-block;
+  background-color: #9a816d;
+  border: 3px solid #795638;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+dt {
+  display: inline-block;
+    margin-bottom: 1rem;
+  text-align: center;
+}
