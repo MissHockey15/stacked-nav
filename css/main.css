@@ -8,22 +8,25 @@ html {
   	box-sizing: inherit;
 }
 
-h1 {
+.navbox h1 {
   text-align: center;
-  color: 47241e
+  color: 4a1f00;
 }
 
-a {
+.navbox a {
   display: inline-block;
   background-color: #9a816d;
   border: 1px solid #795638;
   text-align: center;
   color: white;
   text-decoration: none;
+  padding: .7em 9em
 }
 
-dt {
-  display: inline-block;
-  margin-bottom: 1rem;
-  text-align: center;
+ul {
+  list-style-type: none;
+}
+
+a:hover {
+  background-color: 795437
 }
