@@ -1,32 +1,38 @@
 html {
   box-sizing: border-box;
-  background-color: #ffffff;
-  font-family: 'Dosis', sans-serif;
-  }
+  background-color: #fff;
+  font-family: "Dosis", sans-serif;
+}
 
-  *, *::before, *::after {
-  	box-sizing: inherit;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 .navbox h1 {
   text-align: center;
-  color: 4a1f00;
+  color: #5a1e04;
+}
+
+.navbox body {
+  margin-right: -3em;
 }
 
 .navbox a {
-  display: inline-block;
+  display: block;
   background-color: #9a816d;
   border: 1px solid #795638;
   text-align: center;
   color: white;
   text-decoration: none;
-  padding: .7em 9em
+  padding: 0.7em 8em;
 }
 
 ul {
   list-style-type: none;
+  margin-right: 2em;
+
 }
 
-a:hover {
-  background-color: 795437
+.navbox a:hover {
+  background-color: #795437;
 }
